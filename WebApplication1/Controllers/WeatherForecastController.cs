@@ -34,5 +34,10 @@ namespace WebApplication1.Controllers
         {
             return Ok("kerolos");
         }
+        [HttpGet(Name = "GetEmail")]
+        public IActionResult GetEmail()
+        {
+            return Ok("kerolos@gmail.com");
+        }
     }
 }
