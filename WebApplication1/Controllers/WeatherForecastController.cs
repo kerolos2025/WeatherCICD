@@ -37,7 +37,7 @@ namespace WebApplication1.Controllers
         [HttpGet(Name = "GetEmail")]
         public IActionResult GetEmail()
         {
-            return Ok("kerolos@gmail.com");
+            return Ok("saber@gmail.com");
         }
     }
 }
